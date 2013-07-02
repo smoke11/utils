@@ -12,8 +12,7 @@ public class FileOpenPanel extends JPanel
     public File OpenedFile;
     private String currentPath=FileOpenPanel.class.getProtectionDomain().getCodeSource().getLocation().getPath();
 
-    public void setPath()
-    {
+    public void setPath() {
         JFileChooser fileChooser = new JFileChooser();
         fileChooser.setDialogTitle("Show path to data files");
         fileChooser.setAcceptAllFileFilterUsed(false);
